@@ -1,24 +1,19 @@
 import menu
 
-menu.menu()
+opcaoEscolhida = menu.menu()
 
-opcaoEscolhida = int(input("\nDigite o número da opção que você deseja acessar (1 a 6):"))
+#while opcaoEscolhida != 6:
 
-if opcaoEscolhida < 1 or opcaoEscolhida >6:
-    menu.selecionarOpcao(opcaoEscolhida)
-
-
-
-
-
-
-#Menu de opções:
-
-#Criar Arquivo
-#Ler Arquivo
-#Criptografar Arquivo
-#Descriptografar Arquivo
-#Sair
+'''  
+    if opcaoEscolhida == 1:
+            menu.criarArquivo()
+            
+        elif opcaoEscolhida == 2:
+        elif opcaoEscolhida == 3:
+        elif opcaoEscolhida == 4:
+        elif opcaoEscolhida == 5:
+        elif opcaoEscolhida == 6:
+'''  
 
 
 

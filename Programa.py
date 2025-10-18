@@ -1,21 +1,13 @@
 import menu
+import os
 
-opcaoEscolhida = menu.menu()
+print("\nSeja Bem-Vindo ao nosso programa !")
 
-#while opcaoEscolhida != 6:
-
-'''  
-    if opcaoEscolhida == 1:
-            menu.criarArquivo()
-            
-        elif opcaoEscolhida == 2:
-        elif opcaoEscolhida == 3:
-        elif opcaoEscolhida == 4:
-        elif opcaoEscolhida == 5:
-        elif opcaoEscolhida == 6:
-'''  
-
-
+controle = True
+while controle:
+    menu.menu()
+    opcaoEscolhida = menu.opcaoEscolhida()
+    controle  = menu.CondicionalOpcao(opcaoEscolhida)
 
 
 

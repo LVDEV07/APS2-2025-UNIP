@@ -1,5 +1,4 @@
 import menu
-import os
 
 print("\nSeja Bem-Vindo ao nosso programa !")
 
